@@ -1,0 +1,9 @@
+.vscode/
+*.o
+*.a
+*.tmp
+*.~
+*.#
+/asm/asm
+/corewar/corewar
+corewar_binaries/

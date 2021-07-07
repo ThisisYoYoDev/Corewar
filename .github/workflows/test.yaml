@@ -1,0 +1,68 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - master
+      - asm
+  pull_request:
+    branches:
+      - master
+      - asm
+
+jobs:
+  fonctional-test-asm:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: run functional tests for asm by YoYo
+      run: |
+        cd bonus/asm/
+        bash asm_test.sh
+
+  fonctional-test-vm:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: install dependencies for vm tests
+      run: |
+        sudo apt update
+        sudo apt install libsdl1.2-dev libsdl1.2debian libsdl-sound1.2 libsdl-sound1.2-dev libsdl-ttf-gst libsdl-image1.2 libsdl-mixer1.2
+    - name: run functional tests for VM by JB
+      run: ./bonus/vm/auto_tests/auto_test.sh
+
+  unit-tests:
+    runs-on: ubuntu-20.04
+    container: docker://epitechcontent/epitest-docker
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run tests
+        shell: bash
+        run: make tests_run
+
+      - name: Get coverage
+        if: ${{ always() }}
+        shell: bash
+        run: make coverage > coverage_outputs
+
+      - name: Upload coverage artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage_outputs
+          path: ./coverage_outputs
+
+      - name: Get branches
+        if: ${{ always() }}
+        shell: bash
+        run: make branches > branches_outputs
+
+      - name: Upload branches artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: branches_outputs
+          path: ./branches_outputs
