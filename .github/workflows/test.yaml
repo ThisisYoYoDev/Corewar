@@ -10,6 +10,7 @@ on:
       - master
       - asm
 
+
 jobs:
   fonctional-test-asm:
     runs-on: ubuntu-20.04
