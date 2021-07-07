@@ -1,0 +1,24 @@
+-dump 0 bonus/asm/result_asm_file/Asombra.cor bonus/asm/result_asm_file/Car.cor
+-dump 0 bonus/asm/result_asm_file/darksasuke.cor bonus/asm/result_asm_file/ultimate-surrender.cor
+-dump 0 -a 100 bonus/asm/result_asm_file/darksasuke.cor bonus/asm/result_asm_file/ultimate-surrender.cor
+-dump 0 -a 800 bonus/asm/result_asm_file/darksasuke.cor -a 4000 bonus/asm/result_asm_file/Car.cor
+-dump 0 -a 200 bonus/asm/result_asm_file/darksasuke.cor -a 5500 bonus/asm/result_asm_file/ultimate-surrender.cor
+-dump 0 -a 200 bonus/asm/result_asm_file/casimir.cor -a 5500 bonus/asm/result_asm_file/corelol.cor
+-dump 0 bonus/asm/result_asm_file/_honeybadger.cor bonus/asm/result_asm_file/corelol.cor
+-dump 0 bonus/asm/result_asm_file/THUNDER.cor bonus/asm/result_asm_file/Kappa.cor
+-dump 0 bonus/asm/result_asm_file/fluttershy.cor bonus/asm/result_asm_file/gedeon.cor
+-dump 0 bonus/asm/result_asm_file/Varimathras.cor bonus/asm/result_asm_file/darksasuke.cor
+-dump 0 bonus/asm/result_asm_file/littlepuppy.cor bonus/asm/result_asm_file/jinx.cor
+-dump 0 bonus/asm/result_asm_file/Rainbow_dash.cor bonus/asm/result_asm_file/doge.cor
+-dump 0 bonus/asm/result_asm_file/ultimate-surrender.cor bonus/asm/result_asm_file/skynet.cor
+-dump 0 bonus/asm/result_asm_file/turtle.cor bonus/asm/result_asm_file/live.cor
+-dump 0 bonus/asm/result_asm_file/helltrain.cor bonus/asm/result_asm_file/justin_bee.cor
+-dump 0 bonus/asm/result_asm_file/_honeybadger.cor bonus/asm/result_asm_file/salamahenagalabadoun.cor
+-dump 0 bonus/asm/result_asm_file/Misaka_Mikoto.cor bonus/asm/result_asm_file/Machine-gun.cor
+-dump 0 bonus/asm/result_asm_file/zork.cor bonus/asm/result_asm_file/terminator.cor
+-dump 0 bonus/asm/result_asm_file/loose.cor bonus/asm/result_asm_file/casimir.cor
+-dump 0 bonus/asm/result_asm_file/dubo.cor bonus/asm/result_asm_file/corelol.cor
+-dump 0 bonus/asm/result_asm_file/big_feet.cor bonus/asm/result_asm_file/youforkmytralala.cor
+-dump 0 bonus/asm/result_asm_file/bigzork.cor bonus/asm/result_asm_file/sam_2.cor
+-dump 0 bonus/asm/result_asm_file/mandragore.cor bonus/asm/result_asm_file/Asombra.cor
+-dump 0 bonus/asm/result_asm_file/Varimathras.cor bonus/asm/result_asm_file/Wall.cor
